@@ -20,7 +20,11 @@
     <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
 
 <style>
-.container { padding-inline: 16px; }
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding-inline: 16px;
+}
 
 .separator {
   width: 8px;
@@ -280,6 +284,7 @@ address { font-style: normal; }
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
